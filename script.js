@@ -1,8 +1,9 @@
 //your JS code here. If required.
+const body = document.querySelector('body');
 window.addEventListener("resize" , getDimension);
 
 getDimension();
-const body = document.querySelector('body');
+
 function getDimension(){
 	let height = window.innerHeight;
 	let width = window.innerWidth;
