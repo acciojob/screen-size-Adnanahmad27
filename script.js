@@ -7,6 +7,5 @@ getDimension();
 function getDimension(){
 	let height = window.innerHeight;
 	let width = window.innerWidth;
-
 	h1.firstElementChild.innerText = `Width: ${width} and Height: ${height}`;
 }
